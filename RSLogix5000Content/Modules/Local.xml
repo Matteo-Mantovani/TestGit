@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Module Name="Local" CatalogNumber="5069-L350ERMS2" Vendor="1" ProductType="14" ProductCode="225" Major="36" Minor="11" ParentModule="Local" ParentModPortId="1" Inhibited="false" MajorFault="true">
+  <CustomProperties>
+    <Provider ID="ACM" Ext="0">
+      <Header xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1" UExt="1">
+        <Libs>
+          <LibHdr CatalogNumber="RFID_Key" Guid="9451F51D-BF8A-4F5C-A0DB-B2F8835AACD2" />
+        </Libs>
+      </Header>
+    </Provider>
+    <Provider ID="ACM" Ext="1">
+      <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1">
+        <Val><![CDATA[<DecoratedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorRev="1" MinorRev="0" CRC="ToDo">
+  <Private xsi:type="ModulePrivateData" Guid="9451F51D-BF8A-4F5C-A0DB-B2F8835AACD2" ContentType="Task">
+    <Attrib>
+      <RPerIns>true</RPerIns>
+    </Attrib>
+    <Subs />
+  </Private>
+</DecoratedData>]]></Val>
+      </Data>
+    </Provider>
+  </CustomProperties>
+  <EKey State="Disabled" />
+  <Ports>
+    <Port Id="1" Address="0" Type="5069" Upstream="false" SafetyNetwork="16#0000_4d98_022e_529c">
+      <Bus Size="32" />
+    </Port>
+    <Port Id="3" Type="Ethernet" Upstream="false" SafetyNetwork="16#0000_4d98_022e_529d">
+      <Bus />
+    </Port>
+    <Port Id="4" Type="Ethernet" Upstream="false" SafetyNetwork="16#0000_4d98_022e_529e">
+      <Bus />
+    </Port>
+  </Ports>
+</Module>

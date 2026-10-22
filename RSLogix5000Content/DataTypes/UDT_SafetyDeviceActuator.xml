@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataType Name="UDT_SafetyDeviceActuator" Family="NoFamily" Class="User">
+  <CustomProperties>
+    <Provider ID="ACM" Ext="0">
+      <Header xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1" UExt="1">
+        <Libs>
+          <LibHdr CatalogNumber="RFID_Key" Guid="9451F51D-BF8A-4F5C-A0DB-B2F8835AACD2" />
+        </Libs>
+      </Header>
+    </Provider>
+    <Provider ID="ACM" Ext="1">
+      <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1">
+        <Val><![CDATA[<DecoratedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorRev="1" MinorRev="0" CRC="ToDo">
+  <Private xsi:type="UdtPrivateData" Guid="9451F51D-BF8A-4F5C-A0DB-B2F8835AACD2" ContentType="Task">
+    <Attrib />
+    <Subs />
+  </Private>
+</DecoratedData>]]></Val>
+      </Data>
+    </Provider>
+  </CustomProperties>
+  <Members>
+    <Member Name="ZZZZZZZZZZUDT_Machin0" DataType="SINT" Dimension="0" Radix="Decimal" Hidden="true" ExternalAccess="Read/Write" />
+    <Member Name="IN_bActuate" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZUDT_Machin0" BitNumber="0" ExternalAccess="Read/Write" />
+    <Member Name="IN_bFeedBack1" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZUDT_Machin0" BitNumber="1" ExternalAccess="Read/Write" />
+    <Member Name="IN_bFeedBack2" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZUDT_Machin0" BitNumber="2" ExternalAccess="Read/Write" />
+    <Member Name="IN_bInputStatus" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZUDT_Machin0" BitNumber="3" ExternalAccess="Read/Write" />
+    <Member Name="IN_bOutputStatus" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZUDT_Machin0" BitNumber="4" ExternalAccess="Read/Write" />
+    <Member Name="IN_bReset" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZUDT_Machin0" BitNumber="5" ExternalAccess="Read/Write" />
+    <Member Name="CROUT_function" DataType="CONFIGURABLE_ROUT" Dimension="0" Radix="NullType" Hidden="false" ExternalAccess="Read/Write" />
+  </Members>
+</DataType>

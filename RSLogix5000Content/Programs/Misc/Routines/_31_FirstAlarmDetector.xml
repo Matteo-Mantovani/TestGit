@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Routine Name="_31_FirstAlarmDetector" Type="RLL">
+  <CustomProperties>
+    <Provider ID="ACM" Ext="0">
+      <Header xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1" UExt="1">
+        <Libs>
+          <LibHdr CatalogNumber="MC" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" />
+        </Libs>
+      </Header>
+    </Provider>
+    <Provider ID="ACM" Ext="1">
+      <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1">
+        <Val><![CDATA[<DecoratedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorRev="1" MinorRev="0" CRC="ToDo">
+  <Private xsi:type="RoutinePrivateData" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" ContentType="Task">
+    <Attrib>
+      <RPerIns>true</RPerIns>
+      <Cont>true</Cont>
+    </Attrib>
+    <Subs />
+  </Private>
+</DecoratedData>]]></Val>
+      </Data>
+    </Provider>
+  </CustomProperties>
+  <RLLContent>
+    <Rung Type="N">
+      <CustomProperties>
+        <Provider ID="ACM" Ext="0">
+          <Header xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1" UExt="1">
+            <Libs>
+              <LibHdr CatalogNumber="MC" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" />
+            </Libs>
+          </Header>
+        </Provider>
+        <Provider ID="ACM" Ext="1">
+          <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1">
+            <Val><![CDATA[<DecoratedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorRev="1" MinorRev="0" CRC="ToDo">
+  <Private xsi:type="RungPrivateData" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" ContentType="Task">
+    <Attrib>
+      <RPerIns>true</RPerIns>
+    </Attrib>
+    <Subs />
+  </Private>
+</DecoratedData>]]></Val>
+          </Data>
+        </Provider>
+      </CustomProperties>
+      <Text><![CDATA[MOVE(AOI_FirstAlarm.OUT_dAlarmCode,gdFirstAlarmCode);]]></Text>
+    </Rung>
+    <Rung Type="N">
+      <Text><![CDATA[[XIC(a) [XIC(b) ,XIC(c) ] ,[XIC(a) ,XIC(b) ] XIC(c) ]OTE(out);]]></Text>
+    </Rung>
+    <Rung Type="N">
+      <Text><![CDATA[XIC(a)XIC(b)OTE(out);]]></Text>
+    </Rung>
+    <Rung Type="N">
+      <Text><![CDATA[XIC(a)XIC(b)OTE(out);]]></Text>
+    </Rung>
+  </RLLContent>
+</Routine>

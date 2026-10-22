@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tag Name="dModulesAlarmCodeArray" TagType="Base" DataType="DINT" Dimensions="20" Radix="Decimal" Constant="false" ExternalAccess="Read/Write" OpcUaAccess="None">
+  <CustomProperties>
+    <Provider ID="ACM" Ext="0">
+      <Header xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1" UExt="1">
+        <Libs>
+          <LibHdr CatalogNumber="MC" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" />
+        </Libs>
+      </Header>
+    </Provider>
+    <Provider ID="ACM" Ext="1">
+      <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1">
+        <Val><![CDATA[<DecoratedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorRev="1" MinorRev="0" CRC="ToDo">
+  <Private xsi:type="TagPrivateData" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" ContentType="Task">
+    <Attrib>
+      <RPerIns>true</RPerIns>
+    </Attrib>
+    <Subs />
+    <OPCExps />
+  </Private>
+</DecoratedData>]]></Val>
+      </Data>
+    </Provider>
+  </CustomProperties>
+  <Data Format="L5K"><![CDATA[[1,2,3,4,5,6,7,8,9,10,0,0,0,0,0,0,0,0,0,0]]]></Data>
+  <Data Format="Decorated">
+    <Array DataType="DINT" Dimensions="20" Radix="Decimal">
+      <Element Index="[0]" Value="1" />
+      <Element Index="[1]" Value="2" />
+      <Element Index="[2]" Value="3" />
+      <Element Index="[3]" Value="4" />
+      <Element Index="[4]" Value="5" />
+      <Element Index="[5]" Value="6" />
+      <Element Index="[6]" Value="7" />
+      <Element Index="[7]" Value="8" />
+      <Element Index="[8]" Value="9" />
+      <Element Index="[9]" Value="10" />
+      <Element Index="[10]" Value="0" />
+      <Element Index="[11]" Value="0" />
+      <Element Index="[12]" Value="0" />
+      <Element Index="[13]" Value="0" />
+      <Element Index="[14]" Value="0" />
+      <Element Index="[15]" Value="0" />
+      <Element Index="[16]" Value="0" />
+      <Element Index="[17]" Value="0" />
+      <Element Index="[18]" Value="0" />
+      <Element Index="[19]" Value="0" />
+    </Array>
+  </Data>
+</Tag>

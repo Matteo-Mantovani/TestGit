@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Routine Name="_200_RFID_Key" Type="RLL" SafetySignature="CB935655 - AC135CFC - BD92C674 - FF860B79 - 825F8C0B - 9A64EFAB - B2041D98 - 0CA5AA32" SafetySignatureTimestamp="09/04/2024, 01:27:10.661 PM">
+  <CustomProperties>
+    <Provider ID="ACM" Ext="0">
+      <Header xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1" UExt="1">
+        <Libs>
+          <LibHdr CatalogNumber="RFID_Key" Guid="9451F51D-BF8A-4F5C-A0DB-B2F8835AACD2" />
+        </Libs>
+      </Header>
+    </Provider>
+    <Provider ID="ACM" Ext="1">
+      <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1">
+        <Val><![CDATA[<DecoratedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorRev="1" MinorRev="0" CRC="ToDo">
+  <Private xsi:type="RoutinePrivateData" Guid="9451F51D-BF8A-4F5C-A0DB-B2F8835AACD2" ContentType="Task">
+    <Attrib>
+      <RPerIns>true</RPerIns>
+    </Attrib>
+    <Subs />
+  </Private>
+</DecoratedData>]]></Val>
+      </Data>
+    </Provider>
+  </CustomProperties>
+  <RLLContent>
+    <Rung Type="N">
+      <CustomProperties>
+        <Provider ID="ACM" Ext="0">
+          <Header xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1" UExt="1">
+            <Libs>
+              <LibHdr CatalogNumber="RFID_Key" Guid="9451F51D-BF8A-4F5C-A0DB-B2F8835AACD2" />
+            </Libs>
+          </Header>
+        </Provider>
+        <Provider ID="ACM" Ext="1">
+          <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1">
+            <Val><![CDATA[<DecoratedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorRev="1" MinorRev="0" CRC="ToDo">
+  <Private xsi:type="RungPrivateData" Guid="9451F51D-BF8A-4F5C-A0DB-B2F8835AACD2" ContentType="Task">
+    <Attrib>
+      <RPerIns>true</RPerIns>
+    </Attrib>
+    <Subs />
+  </Private>
+</DecoratedData>]]></Val>
+          </Data>
+        </Provider>
+      </CustomProperties>
+      <Comment><![CDATA[************************
+RFID
+************************
+ ]]></Comment>
+      <Text><![CDATA[NOP();]]></Text>
+    </Rung>
+    <Rung Type="N">
+      <CustomProperties>
+        <Provider ID="ACM" Ext="0">
+          <Header xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1" UExt="1">
+            <Libs>
+              <LibHdr CatalogNumber="RFID_Key" Guid="9451F51D-BF8A-4F5C-A0DB-B2F8835AACD2" />
+            </Libs>
+          </Header>
+        </Provider>
+        <Provider ID="ACM" Ext="1">
+          <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1">
+            <Val><![CDATA[<DecoratedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorRev="1" MinorRev="0" CRC="ToDo">
+  <Private xsi:type="RungPrivateData" Guid="9451F51D-BF8A-4F5C-A0DB-B2F8835AACD2" ContentType="Task">
+    <Attrib>
+      <RPerIns>true</RPerIns>
+    </Attrib>
+    <Subs />
+  </Private>
+</DecoratedData>]]></Val>
+          </Data>
+        </Provider>
+      </CustomProperties>
+      <Comment><![CDATA[RFID KEY
+P1]]></Comment>
+      <Text><![CDATA[XIC(_is_RFIDKey_P1_ChA_Data)OTE(gsSafetyDevices.RFID_Key[1].IN_bChA);]]></Text>
+    </Rung>
+    <Rung Type="N">
+      <CustomProperties>
+        <Provider ID="ACM" Ext="0">
+          <Header xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1" UExt="1">
+            <Libs>
+              <LibHdr CatalogNumber="RFID_Key" Guid="9451F51D-BF8A-4F5C-A0DB-B2F8835AACD2" />
+            </Libs>
+          </Header>
+        </Provider>
+        <Provider ID="ACM" Ext="1">
+          <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1">
+            <Val><![CDATA[<DecoratedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorRev="1" MinorRev="0" CRC="ToDo">
+  <Private xsi:type="RungPrivateData" Guid="9451F51D-BF8A-4F5C-A0DB-B2F8835AACD2" ContentType="Task">
+    <Attrib>
+      <RPerIns>true</RPerIns>
+    </Attrib>
+    <Subs />
+  </Private>
+</DecoratedData>]]></Val>
+          </Data>
+        </Provider>
+      </CustomProperties>
+      <Text><![CDATA[XIC(_is_RFIDKey_P1_ChB_Data)OTE(gsSafetyDevices.RFID_Key[1].IN_bChB);]]></Text>
+    </Rung>
+    <Rung Type="N">
+      <CustomProperties>
+        <Provider ID="ACM" Ext="0">
+          <Header xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1" UExt="1">
+            <Libs>
+              <LibHdr CatalogNumber="RFID_Key" Guid="9451F51D-BF8A-4F5C-A0DB-B2F8835AACD2" />
+            </Libs>
+          </Header>
+        </Provider>
+        <Provider ID="ACM" Ext="1">
+          <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1">
+            <Val><![CDATA[<DecoratedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorRev="1" MinorRev="0" CRC="ToDo">
+  <Private xsi:type="RungPrivateData" Guid="9451F51D-BF8A-4F5C-A0DB-B2F8835AACD2" ContentType="Task">
+    <Attrib>
+      <RPerIns>true</RPerIns>
+    </Attrib>
+    <Subs />
+  </Private>
+</DecoratedData>]]></Val>
+          </Data>
+        </Provider>
+      </CustomProperties>
+      <Text><![CDATA[XIC(_is_RFIDKey_P1_ChA_Status)XIC(_is_RFIDKey_P1_ChB_Status)OTE(gsSafetyDevices.RFID_Key[1].IN_bModuleStatus);]]></Text>
+    </Rung>
+    <Rung Type="N">
+      <CustomProperties>
+        <Provider ID="ACM" Ext="0">
+          <Header xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1" UExt="1">
+            <Libs>
+              <LibHdr CatalogNumber="RFID_Key" Guid="9451F51D-BF8A-4F5C-A0DB-B2F8835AACD2" />
+            </Libs>
+          </Header>
+        </Provider>
+        <Provider ID="ACM" Ext="1">
+          <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1">
+            <Val><![CDATA[<DecoratedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorRev="1" MinorRev="0" CRC="ToDo">
+  <Private xsi:type="RungPrivateData" Guid="9451F51D-BF8A-4F5C-A0DB-B2F8835AACD2" ContentType="Task">
+    <Attrib>
+      <RPerIns>true</RPerIns>
+    </Attrib>
+    <Subs />
+  </Private>
+</DecoratedData>]]></Val>
+          </Data>
+        </Provider>
+      </CustomProperties>
+      <Text><![CDATA[XIC(bResetPulseArea[1])OTE(gsSafetyDevices.RFID_Key[1].IN_bReset);]]></Text>
+    </Rung>
+    <Rung Type="N">
+      <CustomProperties>
+        <Provider ID="ACM" Ext="0">
+          <Header xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1" UExt="1">
+            <Libs>
+              <LibHdr CatalogNumber="RFID_Key" Guid="9451F51D-BF8A-4F5C-A0DB-B2F8835AACD2" />
+            </Libs>
+          </Header>
+        </Provider>
+        <Provider ID="ACM" Ext="1">
+          <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1">
+            <Val><![CDATA[<DecoratedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorRev="1" MinorRev="0" CRC="ToDo">
+  <Private xsi:type="RungPrivateData" Guid="9451F51D-BF8A-4F5C-A0DB-B2F8835AACD2" ContentType="Task">
+    <Attrib>
+      <RPerIns>true</RPerIns>
+    </Attrib>
+    <Subs />
+  </Private>
+</DecoratedData>]]></Val>
+          </Data>
+        </Provider>
+      </CustomProperties>
+      <Text><![CDATA[XIC(bResetPulseArea[1])OTE(gsSafetyDevices.RFID_Key[1].IN_bReset);]]></Text>
+    </Rung>
+  </RLLContent>
+</Routine>

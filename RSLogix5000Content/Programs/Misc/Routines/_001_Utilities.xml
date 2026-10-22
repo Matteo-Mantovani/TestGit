@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Routine Name="_001_Utilities" Type="RLL">
+  <CustomProperties>
+    <Provider ID="ACM" Ext="0">
+      <Header xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1" UExt="1">
+        <Libs>
+          <LibHdr CatalogNumber="MC" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" />
+        </Libs>
+      </Header>
+    </Provider>
+    <Provider ID="ACM" Ext="1">
+      <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1">
+        <Val><![CDATA[<DecoratedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorRev="1" MinorRev="0" CRC="ToDo">
+  <Private xsi:type="RoutinePrivateData" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" ContentType="Task">
+    <Attrib>
+      <RPerIns>true</RPerIns>
+      <Cont>true</Cont>
+    </Attrib>
+    <Subs />
+  </Private>
+</DecoratedData>]]></Val>
+      </Data>
+    </Provider>
+  </CustomProperties>
+  <RLLContent>
+    <Rung Type="N">
+      <CustomProperties>
+        <Provider ID="ACM" Ext="0">
+          <Header xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1" UExt="1">
+            <Libs>
+              <LibHdr CatalogNumber="MC" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" />
+            </Libs>
+          </Header>
+        </Provider>
+        <Provider ID="ACM" Ext="1">
+          <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1">
+            <Val><![CDATA[<DecoratedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorRev="1" MinorRev="0" CRC="ToDo">
+  <Private xsi:type="RungPrivateData" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" ContentType="Task">
+    <Attrib>
+      <RPerIns>true</RPerIns>
+    </Attrib>
+    <Subs />
+  </Private>
+</DecoratedData>]]></Val>
+          </Data>
+        </Provider>
+      </CustomProperties>
+      <Comment><![CDATA[####################################
+BIT ALWAYS ON ALWAYS OFF
+####################################]]></Comment>
+      <Text><![CDATA[OTL(gb_ON)OTU(gb_OFF);]]></Text>
+    </Rung>
+    <Rung Type="N">
+      <CustomProperties>
+        <Provider ID="ACM" Ext="0">
+          <Header xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1" UExt="1">
+            <Libs>
+              <LibHdr CatalogNumber="MC" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" />
+            </Libs>
+          </Header>
+        </Provider>
+        <Provider ID="ACM" Ext="1">
+          <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1">
+            <Val><![CDATA[<DecoratedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorRev="1" MinorRev="0" CRC="ToDo">
+  <Private xsi:type="RungPrivateData" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" ContentType="Task">
+    <Attrib>
+      <RPerIns>true</RPerIns>
+    </Attrib>
+    <Subs />
+  </Private>
+</DecoratedData>]]></Val>
+          </Data>
+        </Provider>
+      </CustomProperties>
+      <Comment><![CDATA[####################################
+BLINK 6 sec
+####################################]]></Comment>
+      <Text><![CDATA[AOI_Blinker(gBlink6sec,6000);]]></Text>
+    </Rung>
+    <Rung Type="N">
+      <CustomProperties>
+        <Provider ID="ACM" Ext="0">
+          <Header xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1" UExt="1">
+            <Libs>
+              <LibHdr CatalogNumber="MC" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" />
+            </Libs>
+          </Header>
+        </Provider>
+        <Provider ID="ACM" Ext="1">
+          <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1">
+            <Val><![CDATA[<DecoratedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorRev="1" MinorRev="0" CRC="ToDo">
+  <Private xsi:type="RungPrivateData" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" ContentType="Task">
+    <Attrib>
+      <RPerIns>true</RPerIns>
+    </Attrib>
+    <Subs />
+  </Private>
+</DecoratedData>]]></Val>
+          </Data>
+        </Provider>
+      </CustomProperties>
+      <Comment><![CDATA[####################################
+Clock pulse every 1 seconds 
+####################################]]></Comment>
+      <Text><![CDATA[XIO(gTONPulseEvery1secs.DN)TON(gTONPulseEvery1secs,?,?);]]></Text>
+    </Rung>
+    <Rung Type="N">
+      <CustomProperties>
+        <Provider ID="ACM" Ext="0">
+          <Header xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1" UExt="1">
+            <Libs>
+              <LibHdr CatalogNumber="MC" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" />
+            </Libs>
+          </Header>
+        </Provider>
+        <Provider ID="ACM" Ext="1">
+          <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1">
+            <Val><![CDATA[<DecoratedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorRev="1" MinorRev="0" CRC="ToDo">
+  <Private xsi:type="RungPrivateData" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" ContentType="Task">
+    <Attrib>
+      <RPerIns>true</RPerIns>
+    </Attrib>
+    <Subs />
+  </Private>
+</DecoratedData>]]></Val>
+          </Data>
+        </Provider>
+      </CustomProperties>
+      <Comment><![CDATA[####################################
+Clock pulse every 60 seconds 
+####################################]]></Comment>
+      <Text><![CDATA[XIO(gTONPulseEvery60secs.DN)TON(gTONPulseEvery60secs,?,?);]]></Text>
+    </Rung>
+    <Rung Type="N">
+      <CustomProperties>
+        <Provider ID="ACM" Ext="0">
+          <Header xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1" UExt="1">
+            <Libs>
+              <LibHdr CatalogNumber="MC" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" />
+            </Libs>
+          </Header>
+        </Provider>
+        <Provider ID="ACM" Ext="1">
+          <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1">
+            <Val><![CDATA[<DecoratedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorRev="1" MinorRev="0" CRC="ToDo">
+  <Private xsi:type="RungPrivateData" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" ContentType="Task">
+    <Attrib>
+      <RPerIns>true</RPerIns>
+    </Attrib>
+    <Subs />
+  </Private>
+</DecoratedData>]]></Val>
+          </Data>
+        </Provider>
+      </CustomProperties>
+      <Comment><![CDATA[####################################
+Clock pulse every 60 minuts 
+####################################]]></Comment>
+      <Text><![CDATA[XIO(gTONPulseEvery60Min.DN)TON(gTONPulseEvery60Min,?,?);]]></Text>
+    </Rung>
+    <Rung Type="N">
+      <Text><![CDATA[XIC(test)OTE(out);]]></Text>
+    </Rung>
+  </RLLContent>
+</Routine>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Routine Name="Main" Type="RLL">
+  <CustomProperties>
+    <Provider ID="ACM" Ext="0">
+      <Header xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1" UExt="1">
+        <Libs>
+          <LibHdr CatalogNumber="MC" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" />
+        </Libs>
+      </Header>
+    </Provider>
+    <Provider ID="ACM" Ext="1">
+      <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1">
+        <Val><![CDATA[<DecoratedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorRev="1" MinorRev="0" CRC="ToDo">
+  <Private xsi:type="RoutinePrivateData" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" ContentType="Task">
+    <Attrib>
+      <RPerIns>true</RPerIns>
+      <Cont>true</Cont>
+    </Attrib>
+    <Subs />
+  </Private>
+</DecoratedData>]]></Val>
+      </Data>
+    </Provider>
+  </CustomProperties>
+  <RLLContent>
+    <Rung Type="N">
+      <CustomProperties>
+        <Provider ID="ACM" Ext="0">
+          <Header xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1" UExt="1">
+            <Libs>
+              <LibHdr CatalogNumber="MC" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" />
+            </Libs>
+          </Header>
+        </Provider>
+        <Provider ID="ACM" Ext="1">
+          <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1">
+            <Val><![CDATA[<DecoratedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorRev="1" MinorRev="0" CRC="ToDo">
+  <Private xsi:type="RungPrivateData" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" ContentType="Task">
+    <Attrib>
+      <RPerIns>true</RPerIns>
+    </Attrib>
+    <Subs />
+  </Private>
+</DecoratedData>]]></Val>
+          </Data>
+        </Provider>
+      </CustomProperties>
+      <Text><![CDATA[JSR(_001_Utilities,0);]]></Text>
+    </Rung>
+    <Rung Type="N">
+      <CustomProperties>
+        <Provider ID="ACM" Ext="0">
+          <Header xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1" UExt="1">
+            <Libs>
+              <LibHdr CatalogNumber="MC" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" />
+            </Libs>
+          </Header>
+        </Provider>
+        <Provider ID="ACM" Ext="1">
+          <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1">
+            <Val><![CDATA[<DecoratedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorRev="1" MinorRev="0" CRC="ToDo">
+  <Private xsi:type="RungPrivateData" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" ContentType="Task">
+    <Attrib>
+      <RPerIns>true</RPerIns>
+    </Attrib>
+    <Subs />
+  </Private>
+</DecoratedData>]]></Val>
+          </Data>
+        </Provider>
+      </CustomProperties>
+      <Text><![CDATA[JSR(_099_ToPanel,0);]]></Text>
+    </Rung>
+    <Rung Type="N">
+      <CustomProperties>
+        <Provider ID="ACM" Ext="0">
+          <Header xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1" UExt="1">
+            <Libs>
+              <LibHdr CatalogNumber="MC" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" />
+            </Libs>
+          </Header>
+        </Provider>
+        <Provider ID="ACM" Ext="1">
+          <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1">
+            <Val><![CDATA[<DecoratedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorRev="1" MinorRev="0" CRC="ToDo">
+  <Private xsi:type="RungPrivateData" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" ContentType="Task">
+    <Attrib>
+      <RPerIns>true</RPerIns>
+    </Attrib>
+    <Subs />
+  </Private>
+</DecoratedData>]]></Val>
+          </Data>
+        </Provider>
+      </CustomProperties>
+      <Text><![CDATA[JSR(_30_FirstAlarm_Assignment,0);]]></Text>
+    </Rung>
+    <Rung Type="N">
+      <CustomProperties>
+        <Provider ID="ACM" Ext="0">
+          <Header xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1" UExt="1">
+            <Libs>
+              <LibHdr CatalogNumber="MC" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" />
+            </Libs>
+          </Header>
+        </Provider>
+        <Provider ID="ACM" Ext="1">
+          <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1">
+            <Val><![CDATA[<DecoratedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorRev="1" MinorRev="0" CRC="ToDo">
+  <Private xsi:type="RungPrivateData" Guid="FBCDCC51-4D17-4941-942D-FB2B7E2B7E30" ContentType="Task">
+    <Attrib>
+      <RPerIns>true</RPerIns>
+    </Attrib>
+    <Subs />
+  </Private>
+</DecoratedData>]]></Val>
+          </Data>
+        </Provider>
+      </CustomProperties>
+      <Text><![CDATA[JSR(_31_FirstAlarmDetector,0);]]></Text>
+    </Rung>
+  </RLLContent>
+</Routine>

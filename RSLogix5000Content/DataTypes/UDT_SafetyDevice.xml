@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataType Name="UDT_SafetyDevice" Family="NoFamily" Class="User">
+  <CustomProperties>
+    <Provider ID="ACM" Ext="0">
+      <Header xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1" UExt="1">
+        <Libs>
+          <LibHdr CatalogNumber="RFID_Key" Guid="9451F51D-BF8A-4F5C-A0DB-B2F8835AACD2" />
+        </Libs>
+      </Header>
+    </Provider>
+    <Provider ID="ACM" Ext="1">
+      <Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Maj="3" Min="0" OExt="-1">
+        <Val><![CDATA[<DecoratedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorRev="1" MinorRev="0" CRC="ToDo">
+  <Private xsi:type="UdtPrivateData" Guid="9451F51D-BF8A-4F5C-A0DB-B2F8835AACD2" ContentType="Task">
+    <Attrib />
+    <Subs />
+  </Private>
+</DecoratedData>]]></Val>
+      </Data>
+    </Provider>
+  </CustomProperties>
+  <Members>
+    <Member Name="Estop" DataType="UDT_SafetyDeviceElem" Dimension="42" Radix="NullType" Hidden="false" ExternalAccess="Read/Write" />
+    <Member Name="Guard" DataType="UDT_SafetyDeviceElem" Dimension="21" Radix="NullType" Hidden="false" ExternalAccess="Read/Write" />
+    <Member Name="SafetyFlap" DataType="UDT_SafetyDeviceElem" Dimension="10" Radix="NullType" Hidden="false" ExternalAccess="Read/Write" />
+    <Member Name="Valve" DataType="UDT_SafetyDeviceActuator" Dimension="10" Radix="NullType" Hidden="false" ExternalAccess="Read/Write" />
+    <Member Name="SafeOff" DataType="UDT_SafetyDeviceActuator" Dimension="10" Radix="NullType" Hidden="false" ExternalAccess="Read/Write" />
+    <Member Name="Contactor" DataType="UDT_SafetyDeviceActuator" Dimension="10" Radix="NullType" Hidden="false" ExternalAccess="Read/Write" />
+    <Member Name="Drive" DataType="UDT_SafetyDeviceDrive" Dimension="10" Radix="NullType" Hidden="false" ExternalAccess="Read/Write" />
+    <Member Name="RFID_Key" DataType="UDT_SafetyDeviceElem" Dimension="10" Radix="NullType" Hidden="false" ExternalAccess="Read/Write" />
+    <Member Name="Magazine" DataType="UDT_SafetyToMot_XX_Magazine" Dimension="3" Radix="NullType" Hidden="false" ExternalAccess="Read/Write" />
+  </Members>
+  <Dependencies>
+    <Dependency Type="DataType" Name="UDT_SafetyDeviceElem" />
+    <Dependency Type="DataType" Name="UDT_SafetyDeviceElem" />
+    <Dependency Type="DataType" Name="UDT_SafetyDeviceElem" />
+    <Dependency Type="DataType" Name="UDT_SafetyDeviceActuator" />
+    <Dependency Type="DataType" Name="UDT_SafetyDeviceActuator" />
+    <Dependency Type="DataType" Name="UDT_SafetyDeviceActuator" />
+    <Dependency Type="DataType" Name="UDT_SafetyDeviceDrive" />
+    <Dependency Type="DataType" Name="UDT_SafetyDeviceElem" />
+    <Dependency Type="DataType" Name="UDT_SafetyToMot_XX_Magazine" />
+  </Dependencies>
+</DataType>
