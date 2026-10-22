@@ -4,3 +4,6 @@
 	THEN
 		out :=1;
 	END_IF;
+	
+	
+//Dopo merge
